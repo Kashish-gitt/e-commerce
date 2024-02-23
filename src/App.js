@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/Homepage';
+import ProductList from './components/ProductList';
+import {CategoryContextProvider} from './components/CategoryContext'
+import ProductDetails from './components/ProductDetails';
+import AddToCartPage from './components/AddToCart';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <CategoryContextProvider>
+      <Routes>
+       
+        <Route path="/" element={<HomePage />} />
+        <Route path="/add-to-cart" element={<AddToCartPage/>} />
+        <Route path="/categories/:category" element={<ProductList />} />
+        <Route path="/product/:productId" element={<ProductDetails/>} />
+
+      </Routes>
+      </CategoryContextProvider>
+    </Router>
   );
 }
 

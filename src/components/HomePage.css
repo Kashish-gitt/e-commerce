@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    background-color:rgb(241, 236, 230);
+    font-family:'Playfair Display', sans-serif;
+  }
+  
+  .product {
+    margin-top: 3em;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+  }
+  .parallax1{
+    background-image: url('thirdimage.jpg');
+
+    height: 50vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity:70% ; */
+
+  }
+  .parallax2{
+    background-image: url('background.jpg');
+
+    height: 60vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax{
+    background-image: url('background.jpg');
+
+    height: 100vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity:70% ; */
+  
+  }
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: safe;
+    margin-top: 0;
+    /* border: 0.1vw solid black; */
+    max-width: 81%;
+    margin-left: 9vw;
+  }
+  

@@ -1,0 +1,164 @@
+.product-image-details{
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top:7vw;
+    width:40vw;
+    height: 40vw;
+    margin-left: 0;
+    border-radius: 2vw;
+    left: 2vw;
+}
+
+.product-image-details:hover{
+    width: 45vw;
+    height: 45vw;
+}
+
+.product-details-written{
+    position: absolute;
+    left:50vw;
+    top:7vw;
+}
+
+.product-title-details{
+    font-size: 1.5vw;
+}
+
+.product-desc-details{
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+.product-price-details{
+    margin-top: 0.5vw;
+}
+
+.line{
+    position: absolute;
+    top:8vw;
+    /* left:45%; */
+    width: 45vw;
+    background-color: black;
+    height: 0.05vw;
+}
+
+.sizechart{
+    display: flex;
+    gap: 0.9vw;
+    /* left: 50vw; */
+    top:11vw;
+    position: absolute;
+
+}
+
+.size{
+    border: 0.1vw solid black;
+    border-radius: 1.2vw;
+    width: 4vw;
+    height: 3.5vw;
+    text-align: center;
+    padding-top: 0.95vw;
+}
+
+.size:hover{
+    background-color: rgb(235, 221, 204);
+}
+
+.size-choose{
+    position: absolute;
+    top:9vw;
+}
+
+/* .available-offers-title {
+    
+    font-size: 1.2vw;
+  } */
+  
+  .available-offer {
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin-top:0.5vw;
+  }
+
+  .available-offers{
+    
+    position: absolute;
+    top:19vw;
+    width: 30vw;
+  }
+  
+  .line2{
+    position: absolute;
+    top:17vw;
+  }
+
+  .credit-cards{
+    top:0.2vw;
+    width: 1vw;
+    height: 1vw;
+    margin-right: 1vw;
+  }
+  .small-code{
+    font-family: sans-serif;
+    color: rgb(58, 58, 58);
+    margin-left: 2.3vw;
+  }
+
+  .line3{
+    position: absolute;
+    top:40vw;
+  }
+
+  .ship{
+    position: absolute;
+    top:42vw;
+    margin-left: 1vw;
+
+  }
+
+  .pincode{
+    width:25vw;
+    height:2.5vw;
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    margin-top: 1.5vw;
+  }
+
+  .line4{
+    position: absolute;
+    top:50vw;
+  }
+
+  .product-specification{
+    position: absolute;
+    top:52vw;
+    margin-left: 1vw;
+  }
+
+  .line5{
+    position: absolute;
+    top:57vw;
+  }
+
+  .buttons-container{
+    position: absolute;
+    top:59vw;
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+  }
+
+  .add-to-cart-button, .add-to-wishlist-button{
+    width: 18vw;
+    height: 2.5vw;
+    margin-left: 13vw;
+    border-radius: 0.5vw;
+    background-color: rgb(235, 221, 204) ;
+  }
+
+  .add-to-cart-button:hover, .add-to-wishlist-button:hover{
+    background-color:rgb(241, 236, 230) ;
+  }
+
+

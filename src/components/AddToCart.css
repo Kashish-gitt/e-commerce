@@ -1,0 +1,96 @@
+.cart-images{
+    width:10vw;
+    height: 10vw;
+    object-fit: cover;
+    object-position: top;
+    display: inline-block;
+}
+
+.add-to-cart-title{
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.cart-products{
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+
+}
+
+.cart-title{
+
+    font-size: 0.9vw;
+    position: relative;
+    top:4vw;
+}
+
+.cart-price{
+    font-size: 1vw;
+    position: relative;
+    top:4vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    gap:2vw;
+}
+
+.desc-cart{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:25vw;
+
+}
+
+.sub-total,.total-price{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+}
+
+.total-price{
+    margin-top: 1.5vw;
+}
+
+.coupon{
+    width:25vw;
+    height:2.5vw;
+    border: 0.15vw solid black;
+    border-radius: 0.5vw;
+    
+}
+.coupon:hover{
+    background-color: rgb(235, 221, 204);
+}
+
+.coupon-button{
+    width: 11vw;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    margin-left: 2vw;
+    background-color: rgb(235, 221, 204) ;
+}
+.coupon-button:hover, .pay-now:hover{
+    background-color:rgb(241, 236, 230) ;
+
+}
+
+.pay-now{
+    width: 11vw;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    background-color: rgb(235, 221, 204) ;
+}
+
+.product-nav{
+    text-decoration: none;
+    color: black;
+    margin-top: 2vw;
+}

@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional1.jpg",
+      "description": "Description for Product 1.",
+      "price": 19.99,
+      "category": "Men-Traditional",
+      "color":"pink",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 2,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional2.jpg",
+      "description": "Description for Product 2.",
+      "price": 29.99,
+      "category": "Men-Traditional",
+      "color":"cream",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "thumbnail": "/images/traditional3.jpg",
+      "description": "Description for Product 3.",
+      "price": 39.99,
+      "category": "Men-Traditional",
+      "color":"cream",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "thumbnail": "/images/traditional4.jpg",
+      "description": "Description for Product 4.",
+      "price": 49.99,
+      "category": "Men-Traditional",
+      "color":"green",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 5,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional5.jpg",
+      "description": "Description for Product 1.",
+      "price": 19.99,
+      "category": "Men-Traditional",
+      "color":"blue",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 6,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional6.jpg",
+      "description": "Description for Product 2.",
+      "price": 29.99,
+      "category": "Men-Traditional",
+      "color":"blue",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 7,
+      "title": "Product 3",
+      "thumbnail": "/images/traditional7.jpg",
+      "description": "Description for Product 3.",
+      "price": 39.99,
+      "category": "Men-Traditional",
+      "color":"green",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 8,
+      "title": "Product 4",
+      "thumbnail": "/images/traditional8.jpg",
+      "description": "Description for Product 4.",
+      "price": 49.99,
+      "category": "Men-Traditional",
+      "color":"blue",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 9,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional9.jpg",
+      "description": "Description for Product 1.",
+      "price": 19.99,
+      "category": "Men-Traditional",
+      "color":"orange",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 10,
+      "title": "Cloth",
+      "thumbnail": "/images/traditional10.jpg",
+      "description": "Description for Product 2.",
+      "price": 29.99,
+      "category": "Men-Traditional",
+      "color":"black",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 11,
+      "title": "Product 3",
+      "thumbnail": "/images/traditional11.jpg",
+      "description": "Description for Product 3.",
+      "price": 39.99,
+      "category": "Men-Traditional",
+      "color":"pink",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    },
+    {
+      "id": 12,
+      "title": "Product 4",
+      "thumbnail": "/images/traditional12.jpg",
+      "description": "Description for Product 4.",
+      "price": 49.99,
+      "category": "Men-Traditional",
+      "color":"black",
+      "specifications":"lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem lorem ipsum ispum"
+    }
+    
+  ]
+  
