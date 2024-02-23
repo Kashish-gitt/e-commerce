@@ -19,17 +19,17 @@ const AddToCartPage = () => {
             parsedCartItems.forEach((item) => addToCart(item));
         }
     }, [addToCart]);
-    const handleRemoveFromCart = (productId) => {
-        removeFromCart(productId);
-      };
+    // const handleRemoveFromCart = (productId) => {
+    //     removeFromCart(productId);
+    //   };
     
-      const handleUpdateQuantity = (productId, quantity) => {
-        updateQuantity(productId, quantity);
-      };
+    //   const handleUpdateQuantity = (productId, quantity) => {
+    //     updateQuantity(productId, quantity);
+    //   };
     
-      const handleClearCart = () => {
-        clearCart();
-      };
+    //   const handleClearCart = () => {
+    //     clearCart();
+    //   };
     
     const getTotalPrice = () => {
         // Calculate the total price based on the items in the cart
