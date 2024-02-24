@@ -19,7 +19,7 @@ const Carousel = ({ images }) => {
   return (
     <div className="carousel">
       {images.length > 1 && <button className="arrow left-arrow" onClick={handlePrev}>{'<'}</button>}
-      <img src={images[currentIndex]} alt={`image-${currentIndex}`} />
+      <img src={images[currentIndex]} alt="this is not available" />
       {images.length > 1 && <button className="arrow right-arrow" onClick={handleNext}>{'>'}</button>}
     </div>
   );

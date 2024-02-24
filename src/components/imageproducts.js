@@ -24,7 +24,6 @@ const HeroSection = ({myData}) => {
   return (
     <div className='test1'>
         <Carousel images={initialimages} />
-        {/* <img src={use} className='usee'/> */}
         <div className="intro-data">
         <p className='welcometo'>Welcome to </p>
             <h1>{name}</h1>
@@ -36,7 +35,7 @@ const HeroSection = ({myData}) => {
             key={index}
             src={images[(currentIndex + index) % images.length]}
             className='second-container-images'
-            alt={`image-${index}`}
+            alt="this is not available"
           />
         ))}
         </div>

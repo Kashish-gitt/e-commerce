@@ -6,15 +6,13 @@ import Navbar from './navbar';
 const AddToCartPage = () => {
     const { state, addToCart } = useCart(); // Use the useCart hook to get cart state
     const [couponCode, setCouponCode] = useState('');
-    const [appliedCoupon, setAppliedCoupon] = useState(null);
+    const [appliedCoupon] = useState(null);
 
     useEffect(() => {
         const storedCartItems = localStorage.getItem('cart');
 
-        // Parse the stored JSON data
         const parsedCartItems = JSON.parse(storedCartItems);
 
-        // If there are stored items, update the cart state
         if (parsedCartItems) {
             parsedCartItems.forEach((item) => addToCart(item));
         }
@@ -53,7 +51,7 @@ const AddToCartPage = () => {
                     {state.cartItems.map((item) => (
                         <div key={item.id}>
                             <div className='column'>
-                                <img src={item.thumbnail} className='cart-images'></img>
+                                <img src={item.thumbnail} alt="item not available" className='cart-images'></img>
                                 <div className='desc-cart'>
                                     <p className='cart-title'>{item.title}</p>
                                     <p className='cart-price'>Price: {item.price}</p>

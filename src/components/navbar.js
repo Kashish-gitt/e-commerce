@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css';
-import logo from '../assets/logo.png'
 function navbar() {
   return (
     <div className='nav-background'>

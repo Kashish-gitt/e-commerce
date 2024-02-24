@@ -6,8 +6,8 @@ import './ProductDetails.css';
 import CIcon from '@coreui/icons-react';
 import * as icon from '@coreui/icons';
 import { useCart } from './CartContext';
-import {Link, useNavigate } from 'react-router-dom'; 
-import Footer from './footer'
+import { useNavigate } from 'react-router-dom'; 
+// import Footer from './footer'
 
 
 const ProductDetails = () => {
